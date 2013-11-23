@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="sharedbeats:war exploded">
+    <output-path>$PROJECT_DIR$/target/sharedbeats-1</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="sharedbeats/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sharedbeats" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.3.7" />
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-labs:1.3.7" />
+          <element id="library" level="project" name="Maven: groovyx.gaelyk:gaelyk:0.4.4" />
+          <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:1.7.4" />
+          <element id="library" level="project" name="Maven: rome:rome:0.9" />
+          <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
+          <element id="library" level="project" name="Maven: org.twitter4j:twitter4j-core:2.1.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

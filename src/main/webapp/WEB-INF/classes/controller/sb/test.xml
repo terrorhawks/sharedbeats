@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:app='http://www.w3.org/2007/app'
+      xmlns:media='http://search.yahoo.com/mrss/' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
+      xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007'
+      gd:etag='W/&quot;D0IMRXs4fyp7ImA9Wx5XGEg.&quot;'>
+    <id>tag:youtube.com,2008:videos</id>
+    <updated>2010-09-19T00:19:44.537Z</updated>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+    <title>YouTube Videos matching query: The Who My Generation</title>
+    <logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo>
+    <link rel='alternate' type='text/html' href='http://www.youtube.com'/>
+    <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/videos?v=2'/>
+    <link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/videos/batch?v=2'/>
+    <link rel='self' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/videos?q=The+Who+My+Generation&amp;start-index=1&amp;max-results=1&amp;v=2'/>
+    <link rel='service' type='application/atomsvc+xml'
+          href='http://gdata.youtube.com/feeds/api/videos?alt=atom-service&amp;v=2'/>
+    <link rel='next' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/videos?q=The+Who+My+Generation&amp;start-index=2&amp;max-results=1&amp;v=2'/>
+    <author>
+        <name>YouTube</name>
+        <uri>http://www.youtube.com/</uri>
+    </author>
+    <generator version='2.0' uri='http://gdata.youtube.com/'>YouTube data API</generator>
+    <openSearch:totalResults>533262</openSearch:totalResults>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:itemsPerPage>1</openSearch:itemsPerPage>
+    <entry gd:etag='W/&quot;DEMMR347eCp7ImA9Wx5XGEk.&quot;'>
+        <id>tag:youtube.com,2008:video:594WLzzb3JI</id>
+        <published>2008-04-30T15:16:23.000Z</published>
+        <updated>2010-09-18T21:48:06.000Z</updated>
+        <app:control>
+            <yt:state name='restricted' reasonCode='limitedSyndication'>Syndication of this video was restricted by its
+                owner.
+            </yt:state>
+        </app:control>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Music' label='Music'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Alternative'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Pop'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Rock'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='The'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Who'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='My'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Generation'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Pete'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='Townsend'/>
+        <title>The Who - My Generation</title>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=594WLzzb3JI&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/594WLzzb3JI/responses?v=2'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/594WLzzb3JI/related?v=2'/>
+        <link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/594WLzzb3JI?v=2'/>
+        <author>
+            <name>polydorclassics</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/polydorclassics</uri>
+        </author>
+        <yt:accessControl action='comment' permission='allowed'/>
+        <yt:accessControl action='commentVote' permission='allowed'/>
+        <yt:accessControl action='videoRespond' permission='allowed'/>
+        <yt:accessControl action='rate' permission='allowed'/>
+        <yt:accessControl action='embed' permission='denied'/>
+        <yt:accessControl action='list' permission='allowed'/>
+        <yt:accessControl action='syndicate' permission='denied'/>
+        <gd:comments>
+            <gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/594WLzzb3JI/comments?v=2' countHint='1755'/>
+        </gd:comments>
+        <media:group>
+            <media:category label='Music' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music
+            </media:category>
+            <media:credit role='uploader' scheme='urn:youtube' yt:type='partner'>polydorclassics</media:credit>
+            <media:description type='plain'>The Who are an English rock band that formed in 1964. The primary lineup
+                consisted of Pete Townshend, Roger Daltrey, John Entwistle and Keith Moon. The band reached
+                international success, became known for their award-winning live performances, are regarded as one of
+                the most influential rock bands of the 1960s and 70s, and recognized as one of the greatest rock and
+                roll bands of all time.
+            </media:description>
+            <media:keywords>Alternative, Pop, Rock, The, Who, My, Generation, Pete, Townsend</media:keywords>
+            <media:player url='http://www.youtube.com/watch?v=594WLzzb3JI&amp;feature=youtube_gdata_player'/>
+            <media:restriction type='country' relationship='deny'>DE</media:restriction>
+            <media:thumbnail url='http://i.ytimg.com/vi/594WLzzb3JI/default.jpg' height='90' width='120'
+                             time='00:01:42'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/594WLzzb3JI/2.jpg' height='90' width='120' time='00:01:42'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/594WLzzb3JI/1.jpg' height='90' width='120' time='00:00:51'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/594WLzzb3JI/3.jpg' height='90' width='120' time='00:02:33'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/594WLzzb3JI/hqdefault.jpg' height='360' width='480'/>
+            <media:title type='plain'>The Who - My Generation</media:title>
+            <yt:duration seconds='204'/>
+            <yt:uploaded>2008-04-30T15:16:23.000Z</yt:uploaded>
+            <yt:videoid>594WLzzb3JI</yt:videoid>
+        </media:group>
+        <yt:noembed/>
+        <gd:rating average='4.9368005' max='5' min='1' numRaters='4557' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='9760' viewCount='1638663'/>
+        <yt:rating numDislikes='72' numLikes='4485'/>
+    </entry>
+</feed>

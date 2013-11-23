@@ -1,0 +1,151 @@
+/* RESET CSS */
+/* Eric Mayer, HTML5 Boiler...*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;}
+
+ol, ul {list-style: none;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: separate;border-spacing: 0;}
+caption, th, td {text-align: left;font-weight: normal;}
+blockquote:before, blockquote:after,q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+
+/* remember to define focus styles! */
+:focus {outline: 0;}
+html { -webkit-font-smoothing: antialiased; }
+body {color: #ccc; background: #efefef; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+a{display: inline;color: #ccc;}
+
+/* vendor prefix classes */
+.visibility {visibility: hidden;}
+.radius {-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+.leftradius {-moz-border-radius: 6px 0 0 6px; -webkit-border-radius: 6px 0 0 6px; border-radius: 6px 0 0 6px;}
+.shadow {-webkit-box-shadow: #999 0px 1px 2px 1px; -moz-box-shadow: #999 0px 1px 0px 0px; box-shadow: #999 0px 1px 2px 1px;}
+.transition {-webkit-transition: opacity 0.6s ease-in; -moz-transition: opacity 0.6s ease-in; transition: opacity 0.6s ease-in;}
+
+
+
+/* Player */
+#Player {}
+#Player.paused #Background ul.Playlist li div.loading_indicator {display: none;}
+
+#Player.paused #PlayPause a {background: url('/i/play-hover.png');}
+#Player.playing #PlayPause a {background: url('/i/pause-hover.png');}
+
+#Player.paused #PlayPause2 a {background: url('/i/play_45x45.png') top left no-repeat; display: block;  width: 45px; height: 45px; }
+#Player.playing #PlayPause2 a {background: url('/i/pause_45x45.png') top left no-repeat; display: block;  width: 45px; height: 45px;}
+
+/* Player Background image */
+#Background {z-index: 1; position: absolute; /*background: url('/img/ajax-loader.gif') no-repeat 50% 80%;opacity: 0.6;*/ top: 0;left: 0;right: 0;bottom: 0;overflow: hidden;}
+#Background ul.Playlist {z-index: 2;width: 100%;overflow: hidden;position: relative;height: 100%;}
+#Background ul.Playlist li {width: 100%;position: absolute;top: 0;bottom: 0;display: none;}
+
+#Background ul.Playlist li.current_track {z-index: 3;display: block;}
+#Background ul.Playlist li.next_track {z-index: 4;display: block;}
+
+#Background ul.Playlist li img{position: absolute;left: 0;bottom: 0;width: 100%;}
+#Background ul.Playlist li a {display: none;}
+
+#Background ul.Playlist li div.loading_indicator {z-index: 100;position: absolute;top: 30px;left: 50%;}
+#Background ul.Playlist li div.loading_indicator span {display: block;position: relative;opacity: 0.8;left: -150px;top: 10px;width: 300px;text-align: center;padding: 8px;background: #000;color: #fff;font-weight: bold;}
+
+
+/* Visualizer+Tweeter */
+#visualizer {z-index: 5;opacity: 0.6;position: absolute; right: 0px; top: 0px;}
+#tweet {z-index: 6; display: none; background: #000; opacity: 0.6;padding: 8px; position:absolute;top:20px;right:50px;width:300px; opacity:0.4;}
+#tweet h1 {display:block;font-size:14px; color:#fff; margin:0; padding:0;}
+#tweet strong {display:block;font-size:14px;}
+
+/* Display */
+#Display ul.Title li {}
+#Display ul.Title li h2 {z-index:7;position: absolute; font-size:14px; line-height: 1; display: block; min-width: 280px; opacity: 0.85;right:0px;bottom: 40px; padding:14px 80px 14px 14px;background: #000;color: #fff;overflow: hidden;}
+#Display ul.Title li h2 em{cursor: pointer;font-size: 1.6em; font-family: impact, 'helvetica neue', helvetica, 'lucida grande', tahoma, verdana, arial, sans-serif; overflow: hidden;}
+#Display ul.Title li h2 em:hover{color: #ccc; text-decoration: underline;}
+
+#Display ul.Title li h2:hover {-webkit-transition: opacity .6s ease-in;-moz-transition: opacity .6s ease-in;-o-transition: opacity .6s ease-in;opacity: 1;}
+#Display ul.Title li h2 a {font-size: 11px;}
+
+#Display ul.Title li img.album_image{width: 75px;height: 75px;margin-right: 14px;margin-bottom: 7px; float: left;}
+
+#Display ul.Title li h2 div.load-progress {clear: both; background: #212121; height:3px;}
+#Display ul.Title li h2 div.play-progress {width:0px;background:#ccc;height:3px;}
+
+/* Navigation Fullscreen */
+#PrevTrack,#NextTrack {z-index: 30;position: absolute;top: 30%;height: 50%;}
+#PrevTrack {left: 0;}
+#NextTrack {right: 0;}
+
+#PrevTrack,#PrevTrack a,#NextTrack,#NextTrack a {display: block;width: 70px;overflow: hidden;}
+#PrevTrack a,#NextTrack a {padding: 186px 0 0;height: 0; opacity: 0.1;-webkit-transition: opacity 0.2s ease-in;}
+
+#PrevTrack a:hover,#NextTrack a:hover {opacity: 0.4;}
+#PrevTrack a {background: url('/i/left.png') no-repeat left center;}
+#NextTrack a {background: url('/i/right.png') no-repeat right center;}
+
+#PlayPause {z-index: 30;position: absolute;left: 50%;top: 50%;height: 148px;}
+#PlayPause a {position: relative;display: block;left: -69px;width: 138px;height: 0;padding: 148px 0 0;overflow: hidden;background-position: top left;background-color: transparent;background-repeat: no-repeat;opacity: 0.4;-webkit-transition: opacity 0.2s ease-in;}
+#PlayPause a:hover {opacity: 1;}
+
+
+/* Playlist, Settings, About window */
+#Playlist {z-index:40;position:absolute;top:80px;left:40px; min-width: 420px;width: 420px; min-height: 380px; background: #000;padding: 8px;}
+#Playlist.opac {opacity: 0;}
+#Playlist:hover, #tweet:hover {-webkit-transition: opacity .6s ease-in;-moz-transition: opacity .6s ease-in;-o-transition: opacity .6s ease-in; opacity: 1;}
+
+#Menu {border-bottom: 0px solid #666;padding:0; margin: 0;overflow: hidden;}
+#Menu h2 {font-weight: bold; padding:0; margin-top:2px; float: left; font-size: 16px;}
+
+#Menu h2 span {margin-right: 4px;padding: 4px 4px 9px 4px;cursor: pointer;}
+#Search {padding: 2px 0 4px 0; margin:0;float: right;}
+#Search form {display: inline;}
+#Menu input {border: 1px solid #212121; background: #212121; color: #ccc;}
+
+/* Controls / Navigation Playlist*/
+#Controls {background: #212121; padding: 4px; margin-bottom: 2px; overflow: hidden;}
+#Controls #Playing {font-size: 11px; height: 16px; padding: 2px; margin:8px 0 8px 0; background: #303030; overflow: hidden;}
+#Controls #Playing img {vertical-align:-4px;}
+#Controls #Playing span{}
+    #PlayPause2, #PrevTrack2, #NextTrack2 {float: left;}
+
+#Controls #PrevTrack2 a {background: url('/i/prev_45x45.png')top left no-repeat; display: block; width: 45px; height: 45px;}
+#Controls #NextTrack2 a {background: url('/i/next_45x45.png') top left no-repeat; display: block; width: 45px; height: 45px;}
+    #Time, #Duration {float: right; background: #303030; margin: 14px 2px 0 4px; height: 12px; width: 25px; font-size: 9px; text-align: right;padding: 1px;text-align: center;}
+
+#Controls #Gauge {float: right; background: #303030; margin: 14px 0 0 4px; padding: 0; height: 14px; width: 200px; cursor: pointer;}
+#Controls #Gauge .play-progress {height: 14px; width: 0; padding: 0; background: #ccc;}
+#Controls #Gauge:hover {background: #4d4d4d;}
+/* Tracklisting */
+#Tracks{position: relative; min-height: 240px;min-width: 416px;height: 240px;width: 416px; overflow:hidden; overflow-y:auto;}
+#Tracks ol.Tracks {list-style: decimal-leading-zero inside;}
+#Tracks ol li { color: #ccc;border-bottom: 1px dotted #666;cursor: pointer;font-size: 11px;font-family: monospace, sans-serif;padding: 4px;}
+#Tracks ol li.current_track, #Tracks ol li:hover {background: #303030; color: #fff;}
+
+#Settings, #About {color: #ccc; font-size: 13px; padding: 2px;}
+#Settings label {display: inline-table;color:#ccc;padding:4px;margin: 2px;width: 45%;}
+#Settings select {margin: 2px;display: inline-table;background: #444444;color: #ccc;font-size: 12px;}
+
+#Tabs {clear: both;}
+.tab_selected {background: #212121;padding: 8px 2px 2px 2px;color: #ccc;}
+#Tabs .tab {display: none;}
+
+form#Volume {display: inline;}
+input#VolumeControl, select{width: 120px;}
+
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; vertical-align: baseline; margin-right: 100px; }
+
+/* hand cursor on clickable input elements */
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+
+/* draggable, resizable*/
+.ui-resizable-e {z-index: 99999;cursor: e-resize;display: block;font-size: 1px;height: 100%;position: absolute;right: -5px;top: 0px;width: 7px;}
+.ui-resizable-s {z-index: 99999;bottom: -5px;cursor: s-resize;display: block;font-size: 1px;height: 7px;left: 0px;position: absolute;width: 100%;}
+.ui-resizable-se, .ui-icon, .ui-icon-gripsmall-diagonal-se {
+    z-index: 1001;background-image: url('/i/icons.png');bottom: 1px;cursor: se-resize;display: block;font-size: 1px;height: 16px;overflow-x: hidden;overflow-y: hidden;
+    position: absolute;right: 1px;text-indent: -99999px; width: 16px;}
+
+/* ----------------------------------------------------- */
+#DebugDiv {z-index: 70;display: none;width: 450px;overflow: auto;text-align: left;height: 300px;background-color: #fff;color: #000;left: 0;bottom: 0;position: absolute;}

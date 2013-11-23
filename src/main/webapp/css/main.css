@@ -1,0 +1,54 @@
+body {
+	font-family: Arial;
+	margin: 0px;
+}
+
+
+#masthead {
+	background-color: black;
+	padding: .5em;
+	
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+	text-indent: −9000em;
+	/*background: url() no-repeat;    */
+	width: 100%;
+	height: 70px;
+}
+
+#feeds {
+	margin: 1em;
+	float: right;
+}
+
+table {
+	width: 100%;
+}
+
+.odd {
+	background-color: #F2F3F4;
+}
+
+tr {
+	margin: 1em;
+}
+
+td {
+	padding: 1em;
+}
+
+.footer {
+	padding: .5em;
+	background-color: #F2F3F4;
+	text-align: center;
+	font-size: x-small;
+	width: 100%;
+}
+
+.lastUpdate {
+	font-size: x-small;
+	color: #A28888;
+}
